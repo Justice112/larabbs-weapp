@@ -1,16 +1,16 @@
 <style lang="less"></style>
 
 <script>
-import wepy from '@wepy/core';
-import eventHub from './common/eventHub';
-import vuex from '@wepy/x';
+import wepy from '@wepy/core'
+import eventHub from './common/eventHub'
+import vuex from '@wepy/x'
 
-wepy.use(vuex);
+wepy.use(vuex)
 
 wepy.app({
   onLaunch() {},
-  methods: {},
-});
+  methods: {}
+})
 </script>
 <config>
 {
@@ -38,6 +38,10 @@ wepy.app({
     }],
     color: '#707070',
     selectedColor: '#00b5ad'
+  },
+  useExtendedLib:{
+    weui:true
   }
+
 }
 </config>
